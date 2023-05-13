@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+h1 {
+    color:darkturquoise;
+    text-transform: capitalize;
+    
+    
+}
+
+
+h1 span {
+    display: inline-block;
+    transition: 0.2s ease-in;
+    
+
+}
+.style {
+    transform: translateY(-30px);
+    display: inline-block;
+    transition: 0.2s ease;
+}
+.style1 {
+    transform: translateY(30px);
+    display: inline-block;
+    transition: 0.2s ease-out;
+}
+
+.remove {
+    display: none;
+}
+#parent {
+    display :none;
+}
+#container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    flex-wrap: wrap;
+}
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+ width: 20px;
+ height: 20px;
+ background-color: #1d1d1d;
+ box-shadow: 0 0 2px #000;
+ transition: 2s ease;
+ margin: 2px;
+}
+.box:hover {
+    transition-duration: 0s;
+}
+.box:active {
+    background-color: white;
+}
+
+img {
+    display: none;
+}
+.addedstyle {
+   
+ background-color: white;
+ box-shadow: 0 0 2px #000;
+ 
+ 
+   
+}
+.active {
+
+}
+h4 {
+    color: white;
+    display: none;
+    font-weight: bold;
+
+}
+.model {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    color: white;
+    position: absolute;
+    transform: translateY(-600px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-flow: column-reverse;
+
+}
+button {
+    padding: 20px;
+    background-color: white;
+    border: 3px solid white;
+    color: red;
+    border-radius: 7px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: green;
+    transition: 1s ease;
+    color: white;
+}
+h2 {
+    color: white;
+    font-size: 40px;
+}
